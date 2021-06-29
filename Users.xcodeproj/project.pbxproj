@@ -90,6 +90,15 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
+		1C1A22AF268BA759000F03C6 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				1C755674268A2DE900BB684A /* Endpoint+URL.swift */,
+				1C755676268A330300BB684A /* Endpoint+Users.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
 		1C75564C268A262800BB684A = {
 			isa = PBXGroup;
 			children = (
@@ -147,8 +156,9 @@
 		1C75566D268A2CE900BB684A /* Business Logic */ = {
 			isa = PBXGroup;
 			children = (
-				1C75566F268A2D0F00BB684A /* Models */,
 				1C1A22AE268BA25E000F03C6 /* Services */,
+				1C75566F268A2D0F00BB684A /* Models */,
+				1C1A22AF268BA759000F03C6 /* Endpoints */,
 			);
 			path = "Business Logic";
 			sourceTree = "<group>";
@@ -174,8 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				1C755672268A2D5700BB684A /* Endpoint.swift */,
-				1C755674268A2DE900BB684A /* Endpoint+URL.swift */,
-				1C755676268A330300BB684A /* Endpoint+Users.swift */,
 				1C755678268A346600BB684A /* Networker.swift */,
 				1C755686268A5A8600BB684A /* NetworkError.swift */,
 			);
