@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-final class UsersViewModel: ObservableObject {
+class UsersViewModel: ObservableObject {
     @Published public var users: Users = Users(data: [])
     
     private var usersService: UsersServiceProtocol

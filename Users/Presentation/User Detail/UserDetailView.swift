@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import Combine
 
 struct UserDetailView: View {
     @ObservedObject var viewModel: UserDetailViewModel
