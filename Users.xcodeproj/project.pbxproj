@@ -81,6 +81,15 @@
 			path = "More Info";
 			sourceTree = "<group>";
 		};
+		1C1A22AE268BA25E000F03C6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1C75567A268A364A00BB684A /* UsersService.swift */,
+				1C755684268A563F00BB684A /* UserPictureService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		1C75564C268A262800BB684A = {
 			isa = PBXGroup;
 			children = (
@@ -138,8 +147,8 @@
 		1C75566D268A2CE900BB684A /* Business Logic */ = {
 			isa = PBXGroup;
 			children = (
-				1C75567A268A364A00BB684A /* UsersService.swift */,
-				1C755684268A563F00BB684A /* UserPictureService.swift */,
+				1C75566F268A2D0F00BB684A /* Models */,
+				1C1A22AE268BA25E000F03C6 /* Services */,
 			);
 			path = "Business Logic";
 			sourceTree = "<group>";
@@ -147,7 +156,6 @@
 		1C75566E268A2D0700BB684A /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				1C75566F268A2D0F00BB684A /* Models */,
 				1C755670268A2D1A00BB684A /* Networking */,
 			);
 			path = Core;
