@@ -12,7 +12,7 @@ extension Endpoint {
         var components = URLComponents()
         components.scheme = "https"
         components.host = "dummyapi.io"
-        components.path = "/data/api" + path
+        components.path = "/data/v1" + path
         components.queryItems = queryItems
         
         guard let url = components.url else {

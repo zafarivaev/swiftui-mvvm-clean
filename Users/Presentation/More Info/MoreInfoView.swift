@@ -15,7 +15,7 @@ struct MoreInfoView: View {
         VStack(alignment: .leading, spacing: 20) {
             Text("ID: \(viewModel.user.id ?? "N/A")")
             Text("Full Name: \(viewModel.user.firstName) \(viewModel.user.lastName)")
-            Text("Email: \(viewModel.user.email)")
+            Text("Email: \(viewModel.user.email ?? "N/A")")
             Text("Registration Date: \(viewModel.user.registerDate ?? "N/A")")
             Text("Phone: \(viewModel.user.phone ?? "N/A")")
         }

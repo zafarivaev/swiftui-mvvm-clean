@@ -12,7 +12,7 @@ struct User: Codable, Identifiable {
     let title: String?
     let firstName: String
     let lastName: String
-    let email: String
+    let email: String?
     let dateOfBirth: String?
     let registerDate: String?
     let phone: String?
